@@ -1,0 +1,14 @@
+PODS:
+  - SGDLogger (0.0.1)
+
+DEPENDENCIES:
+  - SGDLogger (from `..`)
+
+EXTERNAL SOURCES:
+  SGDLogger:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  SGDLogger: 15ee589a7d06b4765e77152b1398dfa7341076d9
+
+COCOAPODS: 0.39.0

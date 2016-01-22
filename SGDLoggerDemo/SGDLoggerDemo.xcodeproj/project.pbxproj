@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26A2AB391C51CE71001488C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2AB381C51CE71001488C3 /* AppDelegate.swift */; };
+		26A2AB3B1C51CE71001488C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2AB3A1C51CE71001488C3 /* ViewController.swift */; };
+		26A2AB3E1C51CE71001488C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A2AB3C1C51CE71001488C3 /* Main.storyboard */; };
+		26A2AB401C51CE71001488C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A2AB3F1C51CE71001488C3 /* Assets.xcassets */; };
+		26A2AB431C51CE71001488C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A2AB411C51CE71001488C3 /* LaunchScreen.storyboard */; };
+		BD19ACC8ED77E821D26B1A78 /* Pods_SGDLoggerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5BDC6C658CB1D1A266C1BE /* Pods_SGDLoggerDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26A2AB351C51CE71001488C3 /* SGDLoggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGDLoggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A2AB381C51CE71001488C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26A2AB3A1C51CE71001488C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26A2AB3D1C51CE71001488C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26A2AB3F1C51CE71001488C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26A2AB421C51CE71001488C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26A2AB441C51CE71001488C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5BDC6C658CB1D1A266C1BE /* Pods_SGDLoggerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGDLoggerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6597FEE6E7AAEFC5B8AAA228 /* Pods-SGDLoggerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGDLoggerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGDLoggerDemo/Pods-SGDLoggerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F54FFC2763CFF02426E7C520 /* Pods-SGDLoggerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGDLoggerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGDLoggerDemo/Pods-SGDLoggerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A2AB321C51CE71001488C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD19ACC8ED77E821D26B1A78 /* Pods_SGDLoggerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26A2AB2C1C51CE71001488C3 = {
+			isa = PBXGroup;
+			children = (
+				26A2AB371C51CE71001488C3 /* SGDLoggerDemo */,
+				26A2AB361C51CE71001488C3 /* Products */,
+				700B3212992A42E365FE392D /* Pods */,
+				F2DFEF6BC6CB6B2A54EE6A4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26A2AB361C51CE71001488C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26A2AB351C51CE71001488C3 /* SGDLoggerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26A2AB371C51CE71001488C3 /* SGDLoggerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				26A2AB381C51CE71001488C3 /* AppDelegate.swift */,
+				26A2AB3A1C51CE71001488C3 /* ViewController.swift */,
+				26A2AB3C1C51CE71001488C3 /* Main.storyboard */,
+				26A2AB3F1C51CE71001488C3 /* Assets.xcassets */,
+				26A2AB411C51CE71001488C3 /* LaunchScreen.storyboard */,
+				26A2AB441C51CE71001488C3 /* Info.plist */,
+			);
+			path = SGDLoggerDemo;
+			sourceTree = "<group>";
+		};
+		700B3212992A42E365FE392D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F54FFC2763CFF02426E7C520 /* Pods-SGDLoggerDemo.debug.xcconfig */,
+				6597FEE6E7AAEFC5B8AAA228 /* Pods-SGDLoggerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2DFEF6BC6CB6B2A54EE6A4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D5BDC6C658CB1D1A266C1BE /* Pods_SGDLoggerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26A2AB341C51CE71001488C3 /* SGDLoggerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A2AB471C51CE71001488C3 /* Build configuration list for PBXNativeTarget "SGDLoggerDemo" */;
+			buildPhases = (
+				5E5A72A601950510850A675A /* Check Pods Manifest.lock */,
+				26A2AB311C51CE71001488C3 /* Sources */,
+				26A2AB321C51CE71001488C3 /* Frameworks */,
+				26A2AB331C51CE71001488C3 /* Resources */,
+				798F1DAF7DB980F84A35744E /* Embed Pods Frameworks */,
+				7CD687A99CC6647537347C6F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGDLoggerDemo;
+			productName = SGDLoggerDemo;
+			productReference = 26A2AB351C51CE71001488C3 /* SGDLoggerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26A2AB2D1C51CE71001488C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Sangen;
+				TargetAttributes = {
+					26A2AB341C51CE71001488C3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 26A2AB301C51CE71001488C3 /* Build configuration list for PBXProject "SGDLoggerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26A2AB2C1C51CE71001488C3;
+			productRefGroup = 26A2AB361C51CE71001488C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26A2AB341C51CE71001488C3 /* SGDLoggerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A2AB331C51CE71001488C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A2AB431C51CE71001488C3 /* LaunchScreen.storyboard in Resources */,
+				26A2AB401C51CE71001488C3 /* Assets.xcassets in Resources */,
+				26A2AB3E1C51CE71001488C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E5A72A601950510850A675A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		798F1DAF7DB980F84A35744E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGDLoggerDemo/Pods-SGDLoggerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD687A99CC6647537347C6F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGDLoggerDemo/Pods-SGDLoggerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A2AB311C51CE71001488C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A2AB3B1C51CE71001488C3 /* ViewController.swift in Sources */,
+				26A2AB391C51CE71001488C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26A2AB3C1C51CE71001488C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A2AB3D1C51CE71001488C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26A2AB411C51CE71001488C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A2AB421C51CE71001488C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26A2AB451C51CE71001488C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26A2AB461C51CE71001488C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26A2AB481C51CE71001488C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54FFC2763CFF02426E7C520 /* Pods-SGDLoggerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGDLoggerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.robit.SGDLoggerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26A2AB491C51CE71001488C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6597FEE6E7AAEFC5B8AAA228 /* Pods-SGDLoggerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGDLoggerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.robit.SGDLoggerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A2AB301C51CE71001488C3 /* Build configuration list for PBXProject "SGDLoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A2AB451C51CE71001488C3 /* Debug */,
+				26A2AB461C51CE71001488C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A2AB471C51CE71001488C3 /* Build configuration list for PBXNativeTarget "SGDLoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A2AB481C51CE71001488C3 /* Debug */,
+				26A2AB491C51CE71001488C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26A2AB2D1C51CE71001488C3 /* Project object */;
+}
