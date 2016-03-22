@@ -6,8 +6,7 @@
 //  Copyright (c) 2015 Sangen. All rights reserved.
 //
 
-//import Foundation
-import UIKit
+import Foundation
 
 /**
 * SGDLogger
@@ -67,7 +66,7 @@ public class SGDLogger {
         self.showColor = showColor
     }
 
-    public func logln(msg: String, logLevel: LogLevel, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public func logln(msg: String, logLevel: LogLevel, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
 
         if self.isEnabledForLogLevel(logLevel) {
             var logLevelStr = ""
@@ -124,7 +123,7 @@ public class SGDLogger {
         }
     }
 
-    public func logln(msg: String, logLevel: LogLevel, error: NSError?, errorLevel: LogLevel, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public func logln(msg: String, logLevel: LogLevel, error: NSError?, errorLevel: LogLevel, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         if error == nil {
             self.logln(msg, logLevel: logLevel, file: file, function: function, line: line)
         } else {
@@ -133,50 +132,50 @@ public class SGDLogger {
         }
     }
 
-    public class func verbose(msg: String, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public class func verbose(msg: String, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         self.defaultLogger.logln(msg, logLevel: .Verbose, file: file, function: function, line: line)
     }
-    public class func verbose(msg: String, error: NSError?, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public class func verbose(msg: String, error: NSError?, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         self.defaultLogger.logln(msg, logLevel: .Verbose, error: error, errorLevel: .Error, file: file, function: function, line: line)
     }
-    public class func verbose(msg: String, error: NSError?, errorLevel: LogLevel, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public class func verbose(msg: String, error: NSError?, errorLevel: LogLevel, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         self.defaultLogger.logln(msg, logLevel: .Verbose, error: error, errorLevel: errorLevel, file: file, function: function, line: line)
     }
 
-    public class func info(msg: String, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public class func info(msg: String, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         self.defaultLogger.logln(msg, logLevel: .Info, file: file, function: function, line: line)
     }
-    public class func info(msg: String, error: NSError?, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public class func info(msg: String, error: NSError?, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         self.defaultLogger.logln(msg, logLevel: .Info, error: error, errorLevel: .Error, file: file, function: function, line: line)
     }
-    public class func info(msg: String, error: NSError?, errorLevel: LogLevel, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public class func info(msg: String, error: NSError?, errorLevel: LogLevel, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         self.defaultLogger.logln(msg, logLevel: .Info, error: error, errorLevel: errorLevel, file: file, function: function, line: line)
     }
 
-    public class func debug(msg: String, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public class func debug(msg: String, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         self.defaultLogger.logln(msg, logLevel: .Debug, file: file, function: function, line: line)
     }
-    public class func debug(msg: String, error: NSError?, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public class func debug(msg: String, error: NSError?, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         self.defaultLogger.logln(msg, logLevel: .Debug, error: error, errorLevel: .Error, file: file, function: function, line: line)
     }
-    public class func debug(msg: String, error: NSError?, errorLevel: LogLevel, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public class func debug(msg: String, error: NSError?, errorLevel: LogLevel, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         self.defaultLogger.logln(msg, logLevel: .Debug, error: error, errorLevel: errorLevel, file: file, function: function, line: line)
     }
 
-    public class func warning(msg: String, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public class func warning(msg: String, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         self.defaultLogger.logln(msg, logLevel: .Warning, file: file, function: function, line: line)
     }
-    public class func warning(msg: String, error: NSError?, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public class func warning(msg: String, error: NSError?, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         self.defaultLogger.logln(msg, logLevel: .Warning, error: error, errorLevel: .Error, file: file, function: function, line: line)
     }
-    public class func warning(msg: String, error: NSError?, errorLevel: LogLevel, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public class func warning(msg: String, error: NSError?, errorLevel: LogLevel, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         self.defaultLogger.logln(msg, logLevel: .Warning, error: error, errorLevel: errorLevel, file: file, function: function, line: line)
     }
 
-    public class func error(msg: String, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public class func error(msg: String, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         self.defaultLogger.logln(msg, logLevel: .Error, file: file, function: function, line: line)
     }
-    public class func error(msg: String, error: NSError?, file: StaticString = __FILE__, function: StaticString = __FUNCTION__, line: UInt = __LINE__) {
+    public class func error(msg: String, error: NSError?, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
         self.defaultLogger.logln(msg, logLevel: .Error, error: error, errorLevel: .Error, file: file, function: function, line: line)
     }
 
