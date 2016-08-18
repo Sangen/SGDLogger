@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SGDLogger"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Color test logger"
   s.homepage     = "https://github.com/Sangen/SGDLogger"
   s.license      = { :type => "MIT", :file => "LICENSE" }
