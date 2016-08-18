@@ -11,6 +11,10 @@ import SGDLogger
 
 class ViewController: UIViewController {
 
+    enum CustomError: ErrorType {
+        case Timeout
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -55,6 +59,7 @@ class ViewController: UIViewController {
         SGDLogger.warning("warning log", error: error, errorLevel: .Verbose)
         SGDLogger.error("error log", error: nil)
         SGDLogger.error("error log", error: error)
+        SGDLogger.error("error log", error: CustomError.Timeout)
         print("")
 
         SGDLogger.defaultLogger.logger = { msg in print(msg) }

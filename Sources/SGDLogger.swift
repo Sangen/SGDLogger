@@ -133,10 +133,12 @@ public class SGDLogger {
     }
 
     public func toString(error: ErrorType) -> String {
-        if let e = error as? NSError {
-            return e.localizedDescription
+        let nsError = (error as NSError)
+        if nsError.userInfo.isEmpty {
+            return "\(error)"
+        } else {
+            return "\(nsError.localizedDescription) (code: \(nsError.code))"
         }
-        return "\(error)"
     }
 
     public class func verbose(msg: String, file: StaticString = #file, function: StaticString = #function, line: UInt = #line) {
